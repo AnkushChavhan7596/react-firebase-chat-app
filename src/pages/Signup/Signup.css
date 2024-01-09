@@ -1,0 +1,77 @@
+.signup-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-form{
+    width: 500px;
+    padding: 20px;
+    border: .2px solid rgba(128, 128, 128, 0.205);
+}
+
+.input-field{
+    margin: 20px 0;
+}
+
+.input-field label{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.input-field input{
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.11);
+    border: none;
+    outline: none;
+    letter-spacing: .5px;
+}
+
+.signup-button{
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(0, 136, 255);
+    letter-spacing: 1px;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.or{
+    margin: 20px;
+    color: rgb(85, 85, 85);
+}
+
+.sign-in-with-google{
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.237);
+    outline: none;
+    border:none;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.google-logo{
+    width: 25px;
+    height: 25px;
+}

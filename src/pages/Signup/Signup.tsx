@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Signup.css";
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
   const [name, setName] = useState<string | null>(null);
@@ -50,6 +51,8 @@ const Signup = () => {
       <h2 className='or'>OR</h2>
 
       <button className='sign-in-with-google'>Sign up with Google <img className='google-logo' src="/src/assets/google.png" alt="google-logo" /></button>
+
+      <p className='bottom'>Already have an account? <Link to='/login'>Login</Link></p>
     </div>
   );
 };

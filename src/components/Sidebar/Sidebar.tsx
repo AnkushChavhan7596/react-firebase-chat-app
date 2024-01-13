@@ -16,11 +16,12 @@ const Sidebar = () => {
 
         <div className="search">
             <input type="text" placeholder='Search user' />
+            <img src="https://cdn-icons-png.flaticon.com/128/2811/2811806.png" alt="search-icon" className="search-icon" />
         </div>
 
         <div className="contacts">
             {
-                [1,2,3,4,5,6,7,8,9,10,11,12,14,15,15,16,16,1,2,3,4,4].map((contact) => {
+                [1,2,3,4,5,6,7,8,9,10,11,12,14,15,15,16,16,1,2,3,4,4,2,2,23,23,2,32,3,2,3,2,32].map((contact) => {
                     return (
                         <div className="contact">
                             <div className="profile">
